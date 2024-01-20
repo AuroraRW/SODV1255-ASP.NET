@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "rJdPwkGRO9OA6As9bhOmLJ7G+YjVnhKULNdHFsx7tJc=",
+  "Source": "HelloWorld",
+  "BasePath": "_content/HelloWorld",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HelloWorld\\wwwroot",
+      "Source": "HelloWorld",
+      "ContentRoot": "C:\\00code\\ASPNET\\Ex\\HelloWorld\\HelloWorld\\wwwroot\\",
+      "BasePath": "_content/HelloWorld",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\00code\\ASPNET\\Ex\\HelloWorld\\HelloWorld\\wwwroot\\css\\StyleSheet.css",
+      "SourceId": "HelloWorld",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\00code\\ASPNET\\Ex\\HelloWorld\\HelloWorld\\wwwroot\\",
+      "BasePath": "_content/HelloWorld",
+      "RelativePath": "css/StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
+    },
+    {
+      "Identity": "C:\\00code\\ASPNET\\Ex\\HelloWorld\\HelloWorld\\wwwroot\\images\\img1.jpg",
+      "SourceId": "HelloWorld",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\00code\\ASPNET\\Ex\\HelloWorld\\HelloWorld\\wwwroot\\",
+      "BasePath": "_content/HelloWorld",
+      "RelativePath": "images/img1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\img1.jpg"
+    },
+    {
+      "Identity": "C:\\00code\\ASPNET\\Ex\\HelloWorld\\HelloWorld\\wwwroot\\index.html",
+      "SourceId": "HelloWorld",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\00code\\ASPNET\\Ex\\HelloWorld\\HelloWorld\\wwwroot\\",
+      "BasePath": "_content/HelloWorld",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

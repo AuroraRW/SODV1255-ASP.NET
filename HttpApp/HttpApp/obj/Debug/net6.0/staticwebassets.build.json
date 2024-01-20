@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xJcEeQ0FM/sjwrrEmLbgmUroyxNm4rcEtN3nqLLqVyY=",
+  "Source": "HttpApp",
+  "BasePath": "_content/HttpApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
