@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "osacyOX+nqXHx0KrNOIkfHEti51qHs09GbxCdIxlNIc=",
+  "Source": "ControllerApp",
+  "BasePath": "_content/ControllerApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ControllerApp\\wwwroot",
+      "Source": "ControllerApp",
+      "ContentRoot": "C:\\00code\\ASPNET\\Example\\ControllerApp\\ControllerApp\\wwwroot\\",
+      "BasePath": "_content/ControllerApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\00code\\ASPNET\\Example\\ControllerApp\\ControllerApp\\wwwroot\\Samples\\2.pdf",
+      "SourceId": "ControllerApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\00code\\ASPNET\\Example\\ControllerApp\\ControllerApp\\wwwroot\\",
+      "BasePath": "_content/ControllerApp",
+      "RelativePath": "Samples/2.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Samples\\2.pdf"
+    }
+  ]
+}
