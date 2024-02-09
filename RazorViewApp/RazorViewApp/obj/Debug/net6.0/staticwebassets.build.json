@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "S03YIZMbQmw3QDElclISdLsYB2LIq1uZdq8LZQ01Pcg=",
+  "Source": "RazorViewApp",
+  "BasePath": "_content/RazorViewApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RazorViewApp\\wwwroot",
+      "Source": "RazorViewApp",
+      "ContentRoot": "C:\\00code\\ASPNET\\Example\\RazorViewApp\\RazorViewApp\\wwwroot\\",
+      "BasePath": "_content/RazorViewApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\00code\\ASPNET\\Example\\RazorViewApp\\RazorViewApp\\wwwroot\\css\\StyleSheet.css",
+      "SourceId": "RazorViewApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\00code\\ASPNET\\Example\\RazorViewApp\\RazorViewApp\\wwwroot\\",
+      "BasePath": "_content/RazorViewApp",
+      "RelativePath": "css/StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
+    }
+  ]
+}

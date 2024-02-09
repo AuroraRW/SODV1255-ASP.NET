@@ -4,3 +4,4 @@
 ### Class 2: HttpApp and Routing
 ### Class 3: ControllerApp
 ### Class 4: ModelAPP
+### Class 5: RazorViewApp

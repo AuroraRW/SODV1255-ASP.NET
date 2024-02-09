@@ -1,0 +1,110 @@
+﻿@* @using RazorViewApp.Models *@
+@{
+    string appTitle = "Razor View App";
+    // Person person = new Person() { Name = "John", DateOfBirth = DateTime.Parse("2000-05-06"), PersonGender = Gender.Female };
+
+    List<Person> people = new List<Person>()
+    {
+        new Person() { Name = "John", DateOfBirth = DateTime.Parse("2000-05-06"), PersonGender = Gender.Male},
+        new Person() { Name = "Linda", DateOfBirth = DateTime.Parse("2005-01-09"), PersonGender = Gender.Female},
+        new Person() { Name = "Susan", DateOfBirth = DateTime.Parse("2008-07-12"), PersonGender = Gender.Other}
+    };
+}
+
+@{
+    // local function
+    double? GetAge(DateTime? dateOfBirth)
+    {
+        if (dateOfBirth is not null)
+        {
+            return Math.Round((DateTime.Now - dateOfBirth.Value).TotalDays / 365);
+        }
+        else
+        {
+            return null;
+        }
+    }
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>@appTitle</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <h1>This is my view page</h1>
+        <!-- insert variable -->
+        @* <h2>Hello @person.Name</h2> *@
+
+        <!-- calculate -->
+        @* @{
+            double age = Math.Round((DateTime.Now - person.DateOfBirth.Value).TotalDays / 365);
+        }
+        <h2>The age of @person.Name is @age</h2>  *@
+
+
+        <!-- if block -->
+        @* @if (person.DateOfBirth.HasValue)
+        {
+            double age = Math.Round((DateTime.Now - person.DateOfBirth).Value.TotalDays / 365);
+            <h3>@age years old</h3>
+        }
+        else
+        {
+            <h3>Date of birth is unknown</h3>
+        } *@
+
+
+        <!-- switch case -->
+        @* @switch (person.PersonGender)
+        {
+        case Gender.Male:
+            <p>November 19 is International Men's Day</p>
+        break;
+
+        case Gender.Female:
+            <p>@person.Name, March 8 is International Women's Day</p>
+        break;
+
+        case Gender.Other:
+            <p>March 31 is International Transgender's Day</p>
+        break;
+        } *@
+
+
+        <!-- loop -->
+        @* @foreach (var person in people)
+        {
+            <div>
+                @person.Name
+                <span>, </span>
+                <span>@person.PersonGender</span>
+                @if (person.DateOfBirth != null)
+                {
+                    <span>@person.DateOfBirth.Value.ToString("MM/dd/yyyy")</span>
+                }
+            </div>
+        } *@
+
+        @for (int i = 0; i < 2; i++)
+        {
+            Person person = people[i];
+            @:Hello
+            <div>
+                @person.Name
+                <span>, </span>
+                <span>@person.PersonGender</span>
+                @if (person.DateOfBirth != null)
+                {
+                    <span>@person.DateOfBirth.Value.ToString("MM/dd/yyyy")</span>
+                    @* double age = Math.Round((DateTime.Now - person.DateOfBirth.Value).TotalDays / 365); *@
+
+                <span>@GetAge(person.DateOfBirth) years old</span>
+                }
+            </div>
+        }
+
+
+    </body>
+</html>
