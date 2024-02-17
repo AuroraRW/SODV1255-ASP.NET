@@ -1,7 +1,47 @@
 ﻿@* @using RazorViewApp.Models *@
 @model PersonAndProductModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["title"] = "person with product";
+}
+<div>
+    <h1>Person and Product</h1>
+    <partial name="_TextPartialView"></partial>
+    <div>
+        <h3>Person</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Person Name</td>
+                    <td>@Model.PersonData.Name</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>@Model.PersonData.PersonGender</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-<!DOCTYPE html>
+    <div>
+        <h3>Product</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Product Id</td>
+                    <td>@Model.ProductData.ProductId</td>
+                </tr>
+                <tr>
+                    <td>Product Name</td>
+                    <td>@Model.ProductData.ProductName</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+@* <!DOCTYPE html>
 <html>
     <head>
         <title>Person and Product</title>
@@ -43,3 +83,4 @@
         </div>
     </body>
 </html>
+ *@

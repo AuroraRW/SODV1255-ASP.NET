@@ -11,6 +11,9 @@ namespace RazorViewApp.Controllers
             // Views folder/controller name/action method name.cshtml
             //return View();
             //return new ViewResult() { ViewName = "abc" };
+
+
+            ViewData["title"] = "Index";
             return View("abc");
         }
         [Route("Data")]
@@ -28,7 +31,9 @@ namespace RazorViewApp.Controllers
             //ViewData["people"] = people;
             //ViewBag.people = people;
 
-            return View("Data",people);
+
+            // Data2 is for Layout view
+            return View("Data2",people);
         }
 
         [Route("Details/{name?}")]

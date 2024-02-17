@@ -1,0 +1,31 @@
+﻿@* @using RazorViewApp.Models *@
+@model List<Person>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["title"] = "Persons";
+}
+<div>
+    <h1>This is my data page</h1>
+    <partial name="_TextPartialView"></partial>
+    <table>
+        <tbody>
+            @foreach (Person person in Model)
+            {
+                <tr>
+                    <td class="title">@person.Name</td>
+
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>@person.PersonGender</td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td>@person.DateOfBirth?.ToString("MM/dd/yyyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
