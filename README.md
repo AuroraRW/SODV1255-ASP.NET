@@ -5,3 +5,5 @@
 ### Class 3: ControllerApp
 ### Class 4: ModelAPP
 ### Class 5: RazorViewApp
+### Class 6: RazorViewApp (View Imports, Layout View, Partial View)
+### Class 7: CRUD 

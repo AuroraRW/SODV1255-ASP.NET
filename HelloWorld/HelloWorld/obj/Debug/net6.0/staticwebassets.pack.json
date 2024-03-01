@@ -1,16 +1,16 @@
 {
   "Files": [
     {
-      "Id": "C:\\00code\\ASPNET\\Ex\\HelloWorld\\HelloWorld\\wwwroot\\css\\StyleSheet.css",
-      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+      "Id": "C:\\00code\\ASPNET\\Example\\HelloWorld\\HelloWorld\\wwwroot\\my\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\my\\css\\StyleSheet.css"
     },
     {
-      "Id": "C:\\00code\\ASPNET\\Ex\\HelloWorld\\HelloWorld\\wwwroot\\images\\img1.jpg",
-      "PackagePath": "staticwebassets\\images\\img1.jpg"
+      "Id": "C:\\00code\\ASPNET\\Example\\HelloWorld\\HelloWorld\\wwwroot\\my\\images\\img1.jpg",
+      "PackagePath": "staticwebassets\\my\\images\\img1.jpg"
     },
     {
-      "Id": "C:\\00code\\ASPNET\\Ex\\HelloWorld\\HelloWorld\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
+      "Id": "C:\\00code\\ASPNET\\Example\\HelloWorld\\HelloWorld\\wwwroot\\my\\index.html",
+      "PackagePath": "staticwebassets\\my\\index.html"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.HelloWorld.Microsoft.AspNetCore.StaticWebAssets.props",

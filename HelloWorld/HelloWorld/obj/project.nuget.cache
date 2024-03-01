@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GjVsgtytImTjpPO6gQF9eB8EMPY4H+UdwxCyN0Ze/Aj091NvrmG5OPVs84MIiHEuhJP7rR5Xz7n+ZCiU9+C3Uw==",
+  "dgSpecHash": "Bl7LtCOtPcTuGfMoCduzXERF6eTNyR10rwoUsnWZHce1YozHzUp7Fo17q78EjnUeio9hiWkgDnxPufsR6Jnsbg==",
   "success": true,
-  "projectFilePath": "C:\\00code\\ASPNET\\Ex\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\00code\\ASPNET\\Example\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\awang\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\awang\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\awang\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\awang\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
   "logs": []
 }

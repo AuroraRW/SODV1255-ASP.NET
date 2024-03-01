@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7P8YrXwFHpgP1bQWJO+2tT4ep2RJREcAyPsARK9pta9uTTAjrSN3q6lsfWwyOsMX3zl1Adk1hqCd1g1v1uhO4A==",
+  "dgSpecHash": "dDOBXD7oGvlBLE+ZDD1b4SfeKOue5BYywSBzbG1HjifUu3cB0208pQdyLWE7NfpwT44qqUXSrJCswT9/cw0Jgg==",
   "success": true,
   "projectFilePath": "C:\\00code\\ASPNET\\Example\\RazorViewApp\\RazorViewApp\\RazorViewApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\awang\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\awang\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\awang\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\awang\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
   "logs": []
 }

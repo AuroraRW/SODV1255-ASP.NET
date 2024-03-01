@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S03YIZMbQmw3QDElclISdLsYB2LIq1uZdq8LZQ01Pcg=",
+  "Hash": "svdgpl2l+BR7BuEZGsw1pomt3wAvWcTyFD5h1Oj3USg=",
   "Source": "RazorViewApp",
   "BasePath": "_content/RazorViewApp",
   "Mode": "Default",
@@ -26,6 +26,8 @@
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",

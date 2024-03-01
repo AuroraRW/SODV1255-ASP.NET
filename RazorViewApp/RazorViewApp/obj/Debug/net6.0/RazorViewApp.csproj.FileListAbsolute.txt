@@ -26,3 +26,4 @@ C:\00code\ASPNET\Example\RazorViewApp\RazorViewApp\obj\Debug\net6.0\refint\Razor
 C:\00code\ASPNET\Example\RazorViewApp\RazorViewApp\obj\Debug\net6.0\RazorViewApp.pdb
 C:\00code\ASPNET\Example\RazorViewApp\RazorViewApp\obj\Debug\net6.0\RazorViewApp.genruntimeconfig.cache
 C:\00code\ASPNET\Example\RazorViewApp\RazorViewApp\obj\Debug\net6.0\ref\RazorViewApp.dll
+C:\00code\ASPNET\Example\RazorViewApp\RazorViewApp\obj\Debug\net6.0\RazorViewApp.sourcelink.json
