@@ -7,4 +7,5 @@
 ### Class 5: RazorViewApp
 ### Class 6: RazorViewApp (View Imports, Layout View, Partial View)
 ### Class 7: CRUD 
+### Class 8: Entity Framework (Connecting database)
 

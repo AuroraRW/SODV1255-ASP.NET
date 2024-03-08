@@ -16,13 +16,13 @@
             var joke = _jokeList.FirstOrDefault(j => j.id == jokeId);
             if (joke != null)
             {
-                return new Joke
-                {
-                    id = joke.id,
-                    JokeQuestion = joke.JokeQuestion,
-                    JokeAnswer = joke.JokeAnswer
-                };
-                //return joke;
+                //return new Joke
+                //{
+                //    id = joke.id,
+                //    JokeQuestion = joke.JokeQuestion,
+                //    JokeAnswer = joke.JokeAnswer
+                //};
+                return joke;
             }
 
             return null;

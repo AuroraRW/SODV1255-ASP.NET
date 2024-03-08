@@ -1,0 +1,33 @@
+﻿@model List<Joke>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["title"] = "All Jokes";
+}
+    <h1>Jokes:</h1>
+    @if (Model != null && Model.Count() > 0)
+    {
+        <table>
+            <thread>
+                <tr>
+                    <th>Question</th>
+                </tr>
+            </thread>
+            <tbody>
+                @foreach(var joke in Model)
+                {
+                    <tr>
+                          <td>@joke.JokeQuestion</td>
+                        @* <td><a href="@($"/Joke/Details/{joke.id}")">Answer</a></td>
+                        <td><a href="@($"/Joke/Edit/{joke.id}")">Edit</a></td>
+                        <td><a href="@($"/Joke/Delete/{joke.id}")">Delete</a></td> *@
+
+                        <td><a asp-controller="Joke" asp-action="Details" asp-route-id="@joke.id">Answer</a></td>
+                        <td><a asp-controller="Joke" asp-action="Edit" asp-route-id="@joke.id">Edit</a></td>
+                        <td><a asp-controller="Joke" asp-action="Delete" asp-route-id="@joke.id">Delete</a></td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    }
+    <a asp-controller="Joke" asp-action="Add">Add</a>
