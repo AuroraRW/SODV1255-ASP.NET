@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\00code\\ASPNET\\Example\\CRUD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CEC56C5D-7B51-4C3D-8CC0-AC8841EB6749}|CRUD\\CRUD.csproj|c:\\00code\\aspnet\\example\\crud\\crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEC56C5D-7B51-4C3D-8CC0-AC8841EB6749}|CRUD\\CRUD.csproj|solutionrelative:crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEC56C5D-7B51-4C3D-8CC0-AC8841EB6749}|CRUD\\CRUD.csproj|c:\\00code\\aspnet\\example\\crud\\crud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CEC56C5D-7B51-4C3D-8CC0-AC8841EB6749}|CRUD\\CRUD.csproj|solutionrelative:crud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CEC56C5D-7B51-4C3D-8CC0-AC8841EB6749}|CRUD\\CRUD.csproj|c:\\00code\\aspnet\\example\\crud\\crud\\models\\jokerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEC56C5D-7B51-4C3D-8CC0-AC8841EB6749}|CRUD\\CRUD.csproj|solutionrelative:crud\\models\\jokerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CEC56C5D-7B51-4C3D-8CC0-AC8841EB6749}|CRUD\\CRUD.csproj|c:\\00code\\aspnet\\example\\crud\\crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEC56C5D-7B51-4C3D-8CC0-AC8841EB6749}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEC56C5D-7B51-4C3D-8CC0-AC8841EB6749}|CRUD\\CRUD.csproj|c:\\00code\\aspnet\\example\\crud\\crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEC56C5D-7B51-4C3D-8CC0-AC8841EB6749}|CRUD\\CRUD.csproj|solutionrelative:crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEC56C5D-7B51-4C3D-8CC0-AC8841EB6749}|CRUD\\CRUD.csproj|c:\\00code\\aspnet\\example\\crud\\crud\\models\\joke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,11 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\appsettings.json",
+              "RelativeDocumentMoniker": "CRUD\\appsettings.json",
+              "ToolTip": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\appsettings.json",
+              "RelativeToolTip": "CRUD\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-15T17:05:16.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\Views\\Joke\\Add.cshtml",
               "RelativeDocumentMoniker": "CRUD\\Views\\Joke\\Add.cshtml",
@@ -74,12 +91,11 @@
               "RelativeToolTip": "CRUD\\Views\\Joke\\Add.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-01T16:35:30.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T16:35:30.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\Views\\Joke\\Details.cshtml",
               "RelativeDocumentMoniker": "CRUD\\Views\\Joke\\Details.cshtml",
@@ -87,12 +103,11 @@
               "RelativeToolTip": "CRUD\\Views\\Joke\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-01T16:00:55.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T16:00:55.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "JokeController.cs",
               "DocumentMoniker": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\Controllers\\JokeController.cs",
               "RelativeDocumentMoniker": "CRUD\\Controllers\\JokeController.cs",
@@ -100,25 +115,24 @@
               "RelativeToolTip": "CRUD\\Controllers\\JokeController.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAYwCgAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T15:24:03.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T15:24:03.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "JokeRepository.cs",
               "DocumentMoniker": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\Models\\JokeRepository.cs",
               "RelativeDocumentMoniker": "CRUD\\Models\\JokeRepository.cs",
               "ToolTip": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\Models\\JokeRepository.cs",
               "RelativeToolTip": "CRUD\\Models\\JokeRepository.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBoAAAAAAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T15:36:57.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CRUD\\Views\\Home\\Index.cshtml",
@@ -126,25 +140,11 @@
               "RelativeToolTip": "CRUD\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-01T15:33:06.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T15:33:06.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "CRUD\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "CRUD\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T15:23:43.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\Program.cs",
               "RelativeDocumentMoniker": "CRUD\\Program.cs",
@@ -158,6 +158,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T15:23:43.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Joke.cs",
               "DocumentMoniker": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\Models\\Joke.cs",
               "RelativeDocumentMoniker": "CRUD\\Models\\Joke.cs",
@@ -165,12 +177,11 @@
               "RelativeToolTip": "CRUD\\Models\\Joke.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T15:19:57.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T15:19:57.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\Views\\Joke\\Index.cshtml",
               "RelativeDocumentMoniker": "CRUD\\Views\\Joke\\Index.cshtml",
@@ -182,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\Views\\Joke\\Edit.cshtml",
               "RelativeDocumentMoniker": "CRUD\\Views\\Joke\\Edit.cshtml",
@@ -194,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CRUD.csproj",
               "DocumentMoniker": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\CRUD.csproj",
               "RelativeDocumentMoniker": "CRUD\\CRUD.csproj",
@@ -206,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "CRUD\\Views\\_ViewImports.cshtml",
@@ -218,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\00code\\ASPNET\\Example\\CRUD\\CRUD\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CRUD\\Views\\Shared\\_Layout.cshtml",
