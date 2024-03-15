@@ -8,4 +8,5 @@
 ### Class 6: RazorView (View Imports, Layout View, Partial View)
 ### Class 7: CRUD 
 ### Class 8: Entity Framework (Connecting database)
+### Class 9: Relationship between tables
 

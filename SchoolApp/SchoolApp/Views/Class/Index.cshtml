@@ -1,0 +1,44 @@
+﻿@using SchoolApp.Models
+@model List<Class>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Classes</title>
+</head>
+<body>
+    <div>
+        <h1>Classes:</h1>
+        @if (Model != null && Model.Count() > 0)
+        {
+            <table>
+                <thread>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Teacher</th>
+                        <th>Classroom</th>
+                        <th>Student</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    @foreach (var classInfo in Model)
+                    {
+
+                        <tr>
+                            <td>@classInfo.Subject.Name</td>
+                            <td>@classInfo.Teacher.FirstName</td>
+                            <td>@classInfo.Classroom.RoomNumber</td>
+                            @foreach (var student in classInfo.Student)
+                            {
+                                <td>@student.FirstName @student.LastName</td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</body>
+</html>
