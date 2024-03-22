@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GKUVOzTKcuFqLNPlC3kEhyUDBSNB49lmiSpoHvhAnq4=",
+  "Source": "AuthApp",
+  "BasePath": "_content/AuthApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

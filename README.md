@@ -9,4 +9,5 @@
 ### Class 7: CRUD 
 ### Class 8: Entity Framework (Connecting database)
 ### Class 9: Relationship between tables (SchoolApp)
+### Class 10: Identity (AuthApp)
 
